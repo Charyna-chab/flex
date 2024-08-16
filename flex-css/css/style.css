@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(57, 48, 48);
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(113, 66, 221);
+    outline:black solid 10px;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(113, 66, 221);
+    outline:black solid 10px;
+}
+.container-1{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.aside-left{
+    flex: 1;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 600px;
+    background-color: rgb(37, 219, 219);
+    text-align: center;
+    color: white;
+    outline:black solid 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    flex: 3;
+    
+}
+
+.card{
+   display: flex;
+   flex-wrap: wrap;
+   color: white;
+   
+}
+.contect-1{
+    background-color: rgb(68, 116, 207);
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    outline:black solid 10px ;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.contect-2{
+    text-align: center;
+    background-color: rgb(19, 100, 187);
+    margin-left: 30px;
+    margin-top: 30px;
+    outline:black solid 10px ;
+    width: 504px;
+    height: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+} 
+.contect-3{
+    text-align: center;
+    background-color:rgb(19, 100, 187);
+    margin-left:30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    outline:black solid 10px ;
+    width:503px;
+    height: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
